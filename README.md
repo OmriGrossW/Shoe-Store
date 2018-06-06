@@ -4,7 +4,7 @@ Concurrency and Synchronization practice as part of SPL course.
 
 Implemented using Micro-Services Framework Architecture with Message-Bus.
 
-The Shoe Store project is demonstrating a shoe store that handles different costumers who want to buy shoes by types (spontaneously or by specific scheduled times) by their private wishlists which can even specify to by a specific shoe only when it is under discount - the store is selling if the shoe is in stock or ordering from the factory if it is not, and then notifying the costumers and selling them the requested shoe. 
+The Shoe Store project is demonstrating a shoe store that handles different costumers who want to buy shoes by types (spontaneously or by specific scheduled times) by their private wishlists which can even specify to buy a specific shoe only when it is under discount. The seller is selling a shoe if it is in stock or ordering from the factory if it is not, and when the factory is done the seller is notifying the costumer and selling them the requested shoe. 
 Specific 'sale' times are appointed by the store manager's discount-schedule for discounts of different shoes in the store for limited times.
 Factory managment is done behind the scenes when there is an options for multiple factories working together for utilization.
 
